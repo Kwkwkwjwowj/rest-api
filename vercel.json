@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "fbdownload.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "fbdownload.js" }
+  ]
+}

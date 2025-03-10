@@ -49,4 +49,4 @@ app.get('/fb/reels', async (req, res) => {
     }
 });
 
-app.listen(3000, () => console.log('API berjalan di http://localhost:3000'));
+module.exports = app;
